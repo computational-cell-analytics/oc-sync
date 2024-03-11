@@ -20,7 +20,6 @@ def _sync_remote_folder(client, remote_src, local_dst):
 
 
 def sync_from_owncloud(client, remote_src, local_dst):
-    print(local_dst)
     _sync_remote_folder(client, remote_src, local_dst)
 
 
